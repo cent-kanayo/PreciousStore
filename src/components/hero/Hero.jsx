@@ -3,6 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <section>
+      <p>Hello</p>
       <h1>Hero Section</h1>
     </section>
   );
