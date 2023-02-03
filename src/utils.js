@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const customFetch = axios.create({
-  baseURL: 'https:fakestoreapi',
+  baseURL: 'https://fakestoreapi.com',
 });
