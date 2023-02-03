@@ -7,13 +7,13 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <section className="flex justify-between px-10 py-6">
+    <section className="section flex justify-between px-10 py-6">
       <div>
-        <h3>PreciousStore</h3>
+        <h3><NavLink to='/' onClick={()=> location.reload()}> PreciousStore</NavLink></h3>
       </div>
       <ul className="flex space-x-5">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/" onClick={()=> location.reload()}>Home</NavLink>
         </li>
         <li>
           <NavLink to="/">women's</NavLink>
@@ -36,7 +36,7 @@ const Header = () => {
       </ul>
       <div className="flex space-x-4">
         <div>
-          <Link to="/">Login/Register</Link>
+          <Link to="auth">Login/Register</Link>
         </div>
         <div className="flex space-x-5">
           <AiOutlineSearch />

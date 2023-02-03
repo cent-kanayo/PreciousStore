@@ -14,3 +14,7 @@ input {
 .main {
   height: 100vh;
 }
+.section{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
